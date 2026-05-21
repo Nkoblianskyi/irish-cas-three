@@ -31,7 +31,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New Irish customers only | Min deposit €20 | Free Spins credited as 30 FS per day across 4 days on Cowboys Gold | 50x wagering on bonus and FS winnings | T&Cs apply | gamblingcare.ie",
     userRating: 9.9,
-    votes: 8124,
+    votes: 6184,
     link: "https://tonybet.com/",
     backgroundImage: "/banner-3.jpg",
   },
@@ -48,7 +48,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New Irish customers only | Promo code BETGETCASINOIRE | Opt in, deposit & wager €20+ on selected Casino games within 14 days of registration | 100 Free Spins on Big Bass Splash, value €0.10, valid 7 days | T&Cs apply | gamblingcare.ie",
     userRating: 9.85,
-    votes: 7891,
+    votes: 6417,
     link: "https://midnite.com/",
     backgroundImage: "/banner-3.jpg",
   },
@@ -82,7 +82,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New Irish customers only | Min deposit €10 | 50 FS on Rainbow Cashpots, value €0.10, valid 30 days | 35x wagering on deposit + bonus | Live Casino games excluded | Skrill & Neteller deposits don't qualify | T&Cs apply | gamblingcare.ie",
     userRating: 9.65,
-    votes: 7655,
+    votes: 7118,
     link: "https://www.novibet.ie/",
     backgroundImage: "/banner-3.jpg",
   },
@@ -99,7 +99,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New Irish customers only | Opt in, wager €10 on selected games within 7 days of signup | Get €50 Casino Bonus (40x wagering) + 100 Free Spins on 3 Lucky Hippos | Bonuses expire in 30 days | Max withdrawal €750 | T&Cs apply | gamblingcare.ie",
     userRating: 9.55,
-    votes: 8340,
+    votes: 6381,
     link: "https://www.betvictor.com/",
     backgroundImage: "/banner-10.jpg",
   },
@@ -116,7 +116,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New UK & ROI customers only | Opt in | Same-day stake req. (€20/€50/€100 to get 20/50/100 FS) by 23:59 | FS value €0.10, valid 72h | FS on Big Bass Bonanza, Book of the Fallen or Snakes and Ladders Megadice | T&Cs apply | gamblingcare.ie",
     userRating: 9.45,
-    votes: 9122,
+    votes: 6927,
     link: "https://www.boylesports.com/",
     backgroundImage: "/banner-6.jpg",
   },
@@ -150,7 +150,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New members only | Must sign up via offer link | Wager €10 on Slots within 7 days of registration | Accept Free Spins on Big Bass Bonanza via pop-up within 24h of qualifying | FS value €0.10, valid 3 days | Deposit exclusions apply | T&Cs apply | gamblingcare.ie",
     userRating: 9.25,
-    votes: 6234,
+    votes: 5982,
     link: "https://www.livescorebet.com/",
     backgroundImage: "/banner-3.webp",
   },
@@ -167,7 +167,7 @@ export const casinoSites: BettingSite[] = [
     terms:
       "18+ | New UK & ROI Casino players only | Promo 02/03/26-31/05/26 | Deposit (certain types excluded) + spend €10+ on Slot games | 100 Free Spins on selected games, value €0.10, 48h to accept, valid 7 days | 300 LadBucks expire on 15th of following month | T&Cs apply | gamblingcare.ie",
     userRating: 9.15,
-    votes: 8840,
+    votes: 7481,
     link: "https://www.ladbrokes.com/en/games",
     backgroundImage: "/banner-3.webp",
   },
