@@ -163,7 +163,7 @@ export const casinoSites: BettingSite[] = [
     bonus: "Get 100 Free Spins + 300 LadBucks",
     description: "Casino games promo with LadBucks side reward",
     features: ["UK & ROI casino players", "48h to accept spins", "LadBucks monthly expiry"],
-    welcomeOffer: "Bet €10, ",
+    welcomeOffer: "Bet €10",
     terms:
       "18+ | New UK & ROI Casino players only | Promo 02/03/26-31/05/26 | Deposit (certain types excluded) + spend €10+ on Slot games | 100 Free Spins on selected games, value €0.10, 48h to accept, valid 7 days | 300 LadBucks expire on 15th of following month | T&Cs apply | gamblingcare.ie",
     userRating: 9.15,
@@ -193,7 +193,7 @@ export const horizontalCasinoBanners: HorizontalBanner[] = [
     name: "Midnite",
     logo: "/midnite.webp",
     bonus: "Get 100 Free Spins",
-    welcomeOffer: "Bet €20 ",
+    welcomeOffer: "Bet €20",
     terms:
       "18+ | New Irish customers only | Promo code BETGETCASINOIRE | Opt in, deposit & wager €20+ on selected Casino games within 14 days of registration | 100 Free Spins on Big Bass Splash, value €0.10, valid 7 days | T&Cs apply | gamblingcare.ie",
     link: "https://midnite.com/",
