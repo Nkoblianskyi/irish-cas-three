@@ -10,8 +10,9 @@ export default function CookiePolicyPage() {
       <div className="prose prose-lg max-w-none prose-headings:font-bold prose-headings:text-casino-forest prose-h2:mt-10 prose-h2:mb-4 prose-h2:text-2xl prose-p:text-gray-700 prose-p:leading-relaxed prose-li:text-gray-700">
         <h2>What cookies are</h2>
         <p>
-          Cookies are small text files stored in your browser when you visit a website. {SITE_NAME} uses them to keep core
-          features secure, remember your consent choice, and — if you allow — understand anonymous traffic patterns.
+          Cookies are small text files stored in your browser when you visit a website. {SITE_NAME} — an online casino
+          comparison site — uses them to keep core features secure, remember your consent choice, and — if you allow —
+          understand anonymous traffic patterns.
         </p>
 
         <h2>Categories we use</h2>

@@ -107,7 +107,7 @@ export function CasinoSiteCard({ site, rank }: CasinoSiteCardProps) {
           <div className="h-[40px] flex items-center px-6">
             {/* Brand - 30% */}
             <div className="flex-[0_0_30%] text-center pr-2">
-              <span className="text-xs font-bold">CASINO</span>
+              <span className="text-xs font-bold">ONLINE CASINO</span>
             </div>
 
             {/* BONUS OFFER - 25% */}

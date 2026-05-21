@@ -1,13 +1,13 @@
 "use client"
 
 const MARQUEE_ITEMS = [
-  { id: "1", line: "Live dealer studios — HD roulette & blackjack", sub: "Fresh lobby checks • Best Casinos IE" },
+  { id: "1", line: "Live dealer streams — HD roulette & blackjack online", sub: "Fresh site checks • Best Casinos IE" },
   { id: "2", line: "Jackpot trackers refreshed weekly", sub: "See which brands publish clear RTP notes" },
   { id: "3", line: "Fast KYC = faster first withdrawal", sub: "We flag casinos with streamlined verification" },
   { id: "4", line: "Slots tournaments & mission rewards", sub: "Compare wager-friendly prize structures" },
   { id: "5", line: "Mobile-first lobbies tested on real devices", sub: "Portrait layouts, biometrics, haptics" },
   { id: "6", line: "Responsible tools should be one tap away", sub: "Deposit caps • reality checks • cool-off timers" },
-  { id: "7", line: "Crypto & e-wallet cash desks reviewed", sub: "Payout rails that suit Irish banking habits" },
+  { id: "7", line: "Crypto & e-wallet cashiers reviewed", sub: "Digital payout rails for Irish players" },
 ] as const
 
 export function CasinoMarquee() {

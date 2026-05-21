@@ -74,8 +74,8 @@ export function Footer() {
             </div>
           </Link>
           <p className="max-w-xl text-center text-xs leading-relaxed text-casino-gold-muted/85 md:text-left md:text-sm">
-            Hand-tested casino comparisons for Irish adults. Read each operator&apos;s full terms before claiming any
-            welcome package or free-spin deal.
+            Hand-tested online casino comparisons for Irish adults. Read each operator&apos;s full terms on their website
+            before claiming any welcome package or free-spin deal.
           </p>
         </div>
 
@@ -101,9 +101,9 @@ export function Footer() {
         <div className="mt-8 rounded-xl border border-casino-gold/20 bg-black/35 px-4 py-4 md:px-6 md:py-5">
           <p className="text-[11px] leading-relaxed text-casino-gold-muted/80 sm:text-xs md:text-[13px]">
             <span className="font-bold text-casino-gold">How we operate:</span> {SITE_DOMAIN} is an independent affiliate
-            guide to licensed casinos. We do not run games, take bets, process payments, perform KYC, or hold player
-            balances. We may earn commission when you register via our links; that income never buys a higher rank on our
-            tables.
+            guide to licensed online casinos. We do not run games, take bets, process payments, perform KYC, or hold
+            player balances. We may earn commission when you register via our links; that income never buys a higher rank
+            in our listings.
           </p>
         </div>
 

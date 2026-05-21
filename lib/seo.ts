@@ -8,9 +8,9 @@ export const SITE_KEYWORDS = [
   "bestcasinosie",
   "bestcasinosie.com",
   "online casino ireland",
-  "casino sites ireland",
+  "online casino sites ireland",
   "top online casinos ireland",
-  "licensed casino ireland",
+  "licensed online casino ireland",
   "regulated online casino ireland",
   "irish casino reviews",
   "casino comparison ireland",
@@ -82,7 +82,7 @@ export function buildPageMetadata({
           url: DEFAULT_OG_IMAGE,
           width: 512,
           height: 512,
-          alt: `${SITE_NAME} — casino comparisons for Ireland`,
+          alt: `${SITE_NAME} — online casino comparisons for Ireland`,
         },
       ],
     },
@@ -114,7 +114,7 @@ export const homeMetadata: Metadata = buildPageMetadata({
 export const aboutMetadata: Metadata = buildPageMetadata({
   title: "About Us",
   description:
-    "Learn how Best Casinos IE researches licensed casinos for Ireland. Independent affiliate comparisons, editorial scorecards, and transparent funding — no operator ties.",
+    "Learn how Best Casinos IE researches licensed online casinos for Ireland. Independent affiliate comparisons, editorial scorecards, and transparent funding — no operator ties.",
   path: "/about",
   keywords: ["about best casinos ie", "casino review methodology ireland"],
 })
@@ -138,7 +138,7 @@ export const cookieMetadata: Metadata = buildPageMetadata({
 export const termsMetadata: Metadata = buildPageMetadata({
   title: "Terms & Conditions",
   description:
-    "Website terms for Best Casinos IE. Eligibility (18+), editorial nature of comparisons, liability limits, and Irish governing law for bestcasinosie.com visitors.",
+    "Website terms for Best Casinos IE. Eligibility (18+), editorial online casino comparisons, liability limits, and Irish governing law for bestcasinosie.com visitors.",
   path: "/terms",
   keywords: ["best casinos ie terms", "casino comparison site terms ireland"],
 })
@@ -146,7 +146,7 @@ export const termsMetadata: Metadata = buildPageMetadata({
 export const responsibleGamingMetadata: Metadata = buildPageMetadata({
   title: "Responsible Gaming",
   description:
-    "Responsible gambling resources for Irish casino players. Limits, self-exclusion, warning signs, and links to GambleAware, GamCare, and support networks.",
+    "Responsible gambling resources for Irish online casino players. Limits, self-exclusion, warning signs, and links to GambleAware, GamCare, and support networks.",
   path: "/responsible-gaming",
   keywords: [
     "responsible gambling ireland casino",

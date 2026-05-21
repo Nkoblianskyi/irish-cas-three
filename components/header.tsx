@@ -61,7 +61,7 @@ export function Header() {
             <div className="leading-none">
               <BrandTitle className="text-xl lg:text-3xl" />
               <div className="mt-1 text-[10px] uppercase tracking-[0.28em] text-casino-gold-muted/80">
-                Ireland&apos;s casino comparison desk
+                Ireland&apos;s online casino comparison desk
               </div>
             </div>
           </Link>

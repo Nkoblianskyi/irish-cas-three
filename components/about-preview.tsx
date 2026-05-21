@@ -29,7 +29,7 @@ export function AboutPreview() {
           <p>
             The site stays free to read because we work with operators on an{" "}
             <span className="font-semibold text-casino-gold">affiliate basis</span>: if you register through a tracked
-            link, we may earn a fee. That income funds the reviews; it does not buy placement on our tables.
+            link, we may earn a fee. That income funds the reviews; it does not buy a higher spot in our rankings.
           </p>
         </div>
 

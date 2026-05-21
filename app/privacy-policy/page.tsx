@@ -11,7 +11,8 @@ export default function PrivacyPolicyPage() {
         <h2>1. Who this notice covers</h2>
         <p>
           This privacy policy describes how {SITE_NAME} (&quot;we&quot;, &quot;our&quot;) processes information when you
-          visit {SITE_DOMAIN}. We collect only what is needed to run a secure comparison website and respect your choices
+          visit {SITE_DOMAIN}. We collect only what is needed to run a secure online casino comparison website and respect
+          your choices
           under applicable data-protection law.
         </p>
 

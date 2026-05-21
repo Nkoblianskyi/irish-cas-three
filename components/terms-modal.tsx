@@ -35,15 +35,15 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
               <h3 className="text-base sm:text-lg font-bold mb-2 text-casino-forest">Using {SITE_DOMAIN}</h3>
               <p className="text-sm sm:text-base text-gray-700">
                 By staying on this website you agree to these visitor terms. They govern informational use of{" "}
-                {SITE_NAME} and do not replace the legal contracts you accept with any third-party casino.
+                {SITE_NAME} and do not replace the legal contracts you accept with any third-party online casino website.
               </p>
             </div>
 
             <div>
               <h3 className="text-base sm:text-lg font-bold mb-2 text-casino-forest">Age gate</h3>
               <p className="text-sm sm:text-base text-gray-700">
-                Content discusses real-money gaming and is meant strictly for users aged 18 or older. If you are not of
-                legal age in your jurisdiction, leave the site immediately.
+                Content discusses real-money online gaming and is meant strictly for users aged 18 or older. If you are not
+                of legal age in your jurisdiction, leave the site immediately.
               </p>
             </div>
 
@@ -51,7 +51,7 @@ export function TermsModal({ isOpen, onClose }: TermsModalProps) {
               <h3 className="text-base sm:text-lg font-bold mb-2 text-casino-forest">Responsible play</h3>
               <p className="text-sm sm:text-base text-gray-700 mb-2">We advocate measured entertainment:</p>
               <ul className="text-sm sm:text-base text-gray-700 list-disc list-inside space-y-1">
-                <li>Budget casino play like any other leisure expense</li>
+                <li>Budget online casino play like any other leisure expense</li>
                 <li>Use operator limits before sessions get emotional</li>
                 <li>Never borrow funds to chase a jackpot narrative</li>
                 <li>Pause when sessions blur together or stop feeling fun</li>

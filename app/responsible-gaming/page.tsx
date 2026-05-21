@@ -8,7 +8,7 @@ export default function ResponsibleGamingPage() {
   return (
     <SiteDocumentPage
       title="Responsible gaming"
-      description="Balance, clarity, and support beat any jackpot fantasy"
+      description="Safer online casino play for Irish adults — limits, warning signs, and support"
     >
       <div className="prose prose-lg max-w-none">
           <div className="not-prose flex justify-center mb-6">
@@ -23,23 +23,24 @@ export default function ResponsibleGamingPage() {
               <h2 className="text-red-900 font-bold text-xl mb-0">Read this first</h2>
             </div>
             <p className="text-red-800 mb-2">
-              Casino games are designed for entertainment. The moment they strain your budget, mood, or relationships,
-              pause and reach for structured help - early action prevents deeper harm.
+              Online casino games are designed for entertainment. The moment play on a website or app strains your budget,
+              mood, or relationships, pause and reach for structured help — early action prevents deeper harm.
             </p>
             <p className="text-red-800 font-semibold">Support lines are confidential and staffed by trained listeners.</p>
           </div>
 
           <h2 className="text-2xl font-bold text-casino-velvet mb-4">Ground rules that work</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Responsible play is not about abstaining by default - it is about deciding limits while you are calm and
-            sticking to them when adrenaline shows up. Treat every session as a closed loop with a fixed ticket price.
+            Responsible online play is not about abstaining by default — it is about deciding limits while you are calm and
+            sticking to them when adrenaline shows up on screen. Treat every session as a closed loop with a fixed ticket
+            price.
           </p>
 
           <h3 className="text-xl font-semibold text-casino-velvet mb-3">Practical habits</h3>
           <div className="grid md:grid-cols-2 gap-4 mb-8">
             <div className="bg-amber-50/80 border border-casino-gold/20 p-4 rounded-lg">
               <h4 className="font-semibold text-casino-ruby-deep mb-2">Time boxing</h4>
-              <p className="text-gray-700 text-sm">Set a clock before you open the lobby; log off when it rings.</p>
+              <p className="text-gray-700 text-sm">Set a clock before you open the casino website or app; log off when it rings.</p>
             </div>
             <div className="bg-amber-50/80 border border-casino-gold/20 p-4 rounded-lg">
               <h4 className="font-semibold text-casino-ruby-deep mb-2">Bankroll honesty</h4>
@@ -67,9 +68,9 @@ export default function ResponsibleGamingPage() {
             <li>• Repeated failed attempts to cut back</li>
           </ul>
 
-          <h2 className="text-2xl font-bold text-casino-velvet mb-4">Tools inside licensed casinos</h2>
+          <h2 className="text-2xl font-bold text-casino-velvet mb-4">Tools inside licensed online casinos</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Regulated operators must provide controls that actually block play when you need breathing room:
+            Regulated online operators must provide account controls that actually block play when you need breathing room:
           </p>
           <div className="bg-casino-velvet/5 border border-casino-gold/20 p-6 rounded-lg mb-6">
             <ul className="text-gray-700 space-y-2">
@@ -83,14 +84,14 @@ export default function ResponsibleGamingPage() {
                 <strong>Cool-off &amp; self-exclusion:</strong> timed bans that support staff cannot override casually
               </li>
               <li>
-                <strong>Bet blocks:</strong> temporary removal of table or slot categories
+                <strong>Game blocks:</strong> temporary removal of slot or live dealer categories in your account
               </li>
             </ul>
           </div>
 
           <h2 className="text-2xl font-bold text-casino-velvet mb-4">Where to turn</h2>
           <p className="text-gray-700 leading-relaxed mb-6">
-            The organisations below operate independently of any casino brand. Conversations stay private unless you
+            The organisations below operate independently of any online casino brand. Conversations stay private unless you
             choose otherwise.
           </p>
 
@@ -164,7 +165,7 @@ export default function ResponsibleGamingPage() {
           <ul className="text-gray-700 space-y-2 mb-6">
             <li>• Acknowledge the issue without shaming</li>
             <li>• Point toward professional services instead of policing every device</li>
-            <li>• Avoid co-signing loans that refill a casino balance</li>
+            <li>• Avoid co-signing loans that refill an online casino account</li>
             <li>• Protect your own mental health through counselling if needed</li>
           </ul>
 
@@ -178,8 +179,8 @@ export default function ResponsibleGamingPage() {
 
           <h2 className="text-2xl font-bold text-casino-velvet mb-4">Our editorial stance</h2>
           <p className="text-gray-700 leading-relaxed mb-4">
-            Best Casinos IE only highlights operators that surface responsible-gambling tools prominently and
-            communicate risk honestly. Glamourising unchecked play contradicts our mission.
+            Best Casinos IE only highlights online operators that surface responsible-gambling tools prominently in the
+            website or app and communicate risk honestly. Glamourising unchecked play contradicts our mission.
           </p>
           <ul className="text-gray-700 space-y-2 mb-6">
             <li>• We refuse copy that promises guaranteed wins</li>

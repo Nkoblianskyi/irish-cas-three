@@ -33,8 +33,9 @@ export function AdvertiserDisclosureModal({ isOpen, onClose }: AdvertiserDisclos
             <div>
               <h3 className="text-base sm:text-lg font-bold mb-2 text-casino-forest">Partner links</h3>
               <p className="text-sm sm:text-base text-gray-700">
-                We publish comparisons — we are not a casino. If you open a tracked link and later register or deposit,
-                the operator may pay us a referral fee. That is how we keep the guide free to read.
+                We publish online casino comparisons — we are not an operator. If you open a tracked link and later
+                register or deposit on a website, the brand may pay us a referral fee. That is how we keep the guide free
+                to read.
               </p>
             </div>
 
@@ -46,7 +47,7 @@ export function AdvertiserDisclosureModal({ isOpen, onClose }: AdvertiserDisclos
               <ul className="text-sm sm:text-base text-gray-700 list-disc list-inside space-y-1">
                 <li>Visible licence and complaint routes</li>
                 <li>Readable bonus rules and realistic wagering</li>
-                <li>Slots, tables, live studios, and stream stability</li>
+                <li>Online slots, RNG tables, live dealer streams, and site stability</li>
                 <li>Payment methods Irish players actually use</li>
                 <li>Mobile usability, support speed, and safer-gambling tools</li>
               </ul>

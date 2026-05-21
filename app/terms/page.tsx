@@ -20,34 +20,35 @@ export default function TermsPage() {
 
         <h2>2. Nature of the service</h2>
         <p>
-          {SITE_NAME} publishes editorial comparisons of remote casino brands aimed at Irish adults. We do not run games,
-          hold player balances, or issue licences ourselves.
+          {SITE_NAME} publishes editorial comparisons of licensed <strong>online</strong> casino websites aimed at Irish
+          adults. We do not run games, hold player balances, or issue gambling licences ourselves. All play happens on
+          third-party operators&apos; websites or apps.
         </p>
 
         <h2>3. Eligibility</h2>
         <p>
-          Content assumes readers are at least 18 years old and legally permitted to view gambling-related marketing in
-          their location. You are responsible for complying with local law.
+          Content assumes readers are at least 18 years old and legally permitted to view online gambling marketing in
+          their location. You are responsible for complying with local law before registering with any operator.
         </p>
 
         <h2>4. Information accuracy</h2>
         <p>
-          We aim for careful research, yet promotional mechanics and payment rules change frequently. Treat our summaries
-          as orientation only and verify critical details on the operator&apos;s official site.
+          We aim for careful research, yet online promotional mechanics and payment rules change frequently. Treat our
+          summaries as orientation only and verify critical details on the operator&apos;s official website.
         </p>
 
-        <h2>5. Third-party services</h2>
+        <h2>5. Third-party online services</h2>
         <p>
-          Outbound links depart our environment. Each casino applies its own terms, bonus engine, and compliance workflow.
-          We are not responsible for third-party conduct.
+          Outbound links take you to external casino websites. Each operator applies its own terms, bonus engine, and
+          compliance workflow. We are not responsible for third-party conduct after you leave {SITE_DOMAIN}.
         </p>
 
         <h2>6. Responsible gambling</h2>
         <p>We encourage every visitor to:</p>
         <ul>
-          <li>Pre-plan spend and session length</li>
-          <li>Avoid borrowing to continue playing</li>
-          <li>Use operator safer-gambling controls proactively</li>
+          <li>Pre-plan spend and session length before playing online</li>
+          <li>Avoid borrowing to continue digital play</li>
+          <li>Use operator safer-gambling controls in the account proactively</li>
           <li>Seek professional help if habits become compulsive</li>
         </ul>
 
@@ -59,8 +60,8 @@ export default function TermsPage() {
 
         <h2>8. Limitation of liability</h2>
         <p>
-          To the fullest extent permitted by Irish law, we disclaim liability for indirect or consequential losses tied to
-          site use, partner disputes, or outdated offer language.
+          To the fullest extent permitted by Irish law, we disclaim liability for indirect or consequential losses tied
+          to site use, disputes with online operators, or outdated promotional text.
         </p>
 
         <h2>9. Privacy</h2>

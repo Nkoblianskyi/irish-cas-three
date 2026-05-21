@@ -8,10 +8,17 @@ interface CasinoHeroProps {
 }
 
 const AGGREGATOR_DISCLAIMER =
-  "We list licensed casino brands for Ireland — we compare offers and publish research; we do not operate games, take wagers, or hold player balances."
+  "We compare licensed online casino websites for Ireland — we publish research and offers; we do not run games, take bets, or hold player funds."
 
 const HERO_GRADIENT =
   "linear-gradient(148deg, rgba(10,31,24,0.96) 0%, rgba(15,46,36,0.94) 42%, rgba(26,122,82,0.22) 100%)"
+
+const HERO_TITLE = (
+  <>
+    Top <span className="text-irish-green">Online Casino </span>Sites for{" "}
+    <span className="text-casino-gold">Ireland</span>
+  </>
+)
 
 function HeroDisclaimer({ variant }: { variant: "lg" | "md" | "sm" }) {
   return (
@@ -76,25 +83,25 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
         <div className="flex h-full min-h-[inherit] flex-col justify-between gap-1 px-1 py-3 text-center xl:px-8 lg:py-4">
           <div className="space-y-0.5">
             <h1 className="text-lg font-bold drop-shadow-lg lg:text-[38px] xl:text-[40px] 2xl:text-[40px]">
-              Top <span className="text-irish-green">Casino </span>Picks for <span className="text-casino-gold">Ireland</span>
+              {HERO_TITLE}
             </h1>
             <h2 className="text-[28px] font-bold leading-tight text-casino-gold-muted/95 lg:text-[30px] xl:text-[32px]">
-              GUIDE UPDATED — {getCurrentMonthYear()}
+              ONLINE GUIDE UPDATED — {getCurrentMonthYear()}
             </h2>
             <HeroDisclaimer variant="lg" />
           </div>
 
           <div className="mx-auto max-w-4xl space-y-1 lg:space-y-1.5">
             <p className="text-[11px] leading-snug text-white/88 lg:text-xs xl:text-sm xl:leading-snug">
-              Best Casinos IE maps out regulated venues Irish adults can open an account with — from welcome
-              mechanics and slot catalogues to live-dealer tables, app quality, and how quickly withdrawals clear.
+              Best Casinos IE reviews regulated online casino sites Irish adults can join from home — welcome bonuses,
+              slot libraries, live dealer streams, mobile apps, and how fast winnings reach your bank or e-wallet.
             </p>
             <p className="text-[11px] leading-snug text-white/82 lg:text-xs xl:text-sm xl:leading-snug">
-              Each featured deal is unpacked in everyday language so you can weigh operators side by side before
-              signing up anywhere new.
+              Every featured promo is explained in plain language so you can compare digital operators before creating a
+              new online account.
             </p>
             <p className="text-[10px] text-casino-gold-muted/75 lg:text-[11px] lg:text-casino-gold-muted/80 xl:text-xs">
-              *Promo rules vary by brand. New players only where stated. 18+.
+              *Internet-only play. Promo rules vary by brand. New players only where stated. 18+.
             </p>
           </div>
 
@@ -102,7 +109,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
             <div className="flex flex-nowrap items-center justify-center gap-2 lg:gap-4 xl:gap-6">
               <div className="flex items-center gap-1 lg:gap-2">
                 <Shield className="h-3 w-3 text-casino-gold lg:h-4 lg:w-4" />
-                <span className="text-[10px] font-bold lg:text-xs xl:text-sm">Regulated brands</span>
+                <span className="text-[10px] font-bold lg:text-xs xl:text-sm">Licensed sites</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-2">
                 <div className="flex gap-0.5" title="Ireland">
@@ -114,7 +121,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
               </div>
               <div className="flex items-center gap-1 lg:gap-2">
                 <Clock className="h-3 w-3 text-casino-gold lg:h-4 lg:w-4" />
-                <span className="text-[10px] font-bold lg:text-xs xl:text-sm">Quick cash-outs</span>
+                <span className="text-[10px] font-bold lg:text-xs xl:text-sm">Fast withdrawals</span>
               </div>
               <div className="flex items-center gap-1 lg:gap-2">
                 <span
@@ -128,7 +135,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
             </div>
 
             <div className="text-[9px] leading-tight text-white/72 lg:text-[10px] xl:text-xs">
-              Play for fun, not profit. Wagering and eligibility rules apply.
+              Play online for entertainment only. Wagering and eligibility rules apply.
               <button
                 type="button"
                 onClick={onAdvertiserModalOpen}
@@ -151,16 +158,14 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
       >
         <div className="flex h-full min-h-[inherit] flex-col justify-between gap-1.5 px-4 py-2.5 text-center md:px-6 md:py-3">
           <div className="space-y-0.5">
-            <h1 className="text-xl font-bold md:text-2xl">
-              Top <span className="text-irish-green">Casino </span>Picks for <span className="text-casino-gold">Ireland</span>
-            </h1>
-            <h2 className="text-base font-bold text-casino-gold-muted/95 md:text-lg">UPDATED — {getCurrentMonthYear()}</h2>
+            <h1 className="text-xl font-bold md:text-2xl">{HERO_TITLE}</h1>
+            <h2 className="text-base font-bold text-casino-gold-muted/95 md:text-lg">ONLINE — {getCurrentMonthYear()}</h2>
             <HeroDisclaimer variant="md" />
           </div>
 
           <p className="px-1 text-[10px] leading-snug text-white/86 md:text-[11px] md:leading-snug">
-            We line up Irish-facing casinos on bonuses, game choice, mobile polish, and whether winnings reach your
-            account without unnecessary delays.
+            We rank Irish-facing online casinos on bonuses, game choice, mobile apps, and whether digital withdrawals
+            reach your account without unnecessary delays.
           </p>
 
           <div className="flex flex-nowrap items-center justify-center gap-3 md:gap-6">
@@ -192,7 +197,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
           </div>
 
           <div className="text-[10px] text-white/75 md:text-xs">
-            Bonus T&amp;Cs apply.
+            Internet-only. Bonus T&amp;Cs apply.
             <button type="button" onClick={onAdvertiserModalOpen} className="ml-1 underline hover:text-casino-gold">
               Disclosure
             </button>
@@ -217,9 +222,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
         <div className="relative z-10 flex min-h-[inherit] flex-col">
           <div className="flex flex-1 flex-col justify-between gap-1 px-2 py-1.5 text-center">
             <div className="space-y-0.5">
-              <h1 className="text-[15px] font-bold leading-tight drop-shadow-lg">
-                Top <span className="text-irish-green">Casino </span>Picks for <span className="text-casino-gold">Ireland</span>
-              </h1>
+              <h1 className="text-[15px] font-bold leading-tight drop-shadow-lg">{HERO_TITLE}</h1>
               <h2 className="text-[10px] font-bold leading-tight text-casino-gold-muted/95">{getCurrentMonthYear()}</h2>
               <HeroDisclaimer variant="sm" />
             </div>
@@ -253,7 +256,7 @@ export function CasinoHero({ onAdvertiserModalOpen, onTermsModalOpen }: CasinoHe
             </div>
 
             <div className="text-[6.5px] leading-tight text-white/78">
-              <div>18+. Promo rules apply.</div>
+              <div>18+. Online play only. Promo rules apply.</div>
               <div>
                 <button type="button" onClick={onAdvertiserModalOpen} className="underline hover:text-casino-gold">
                   Disclosure
