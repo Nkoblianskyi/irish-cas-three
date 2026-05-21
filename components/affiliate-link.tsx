@@ -1,6 +1,7 @@
 "use client"
 
 import type { AnchorHTMLAttributes, MouseEvent, ReactNode } from "react"
+import { USE_AFFILIATE_REDIRECT } from "@/lib/site-brand"
 
 interface AffiliateLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement>, "href"> {
   brandUrl: string
@@ -11,12 +12,14 @@ interface AffiliateLinkProps extends Omit<AnchorHTMLAttributes<HTMLAnchorElement
 export function AffiliateLink({ brandUrl, slug, children, ...rest }: AffiliateLinkProps) {
   const navigate = (e: MouseEvent<HTMLAnchorElement>) => {
     e.preventDefault()
-    const target = new URL(`/go/${slug}`, window.location.origin)
+    const base = USE_AFFILIATE_REDIRECT
+      ? new URL(`/go/${slug}`, window.location.origin)
+      : new URL(brandUrl)
     try {
       const current = new URL(e.currentTarget.href)
-      current.searchParams.forEach((v, k) => target.searchParams.set(k, v))
+      current.searchParams.forEach((v, k) => base.searchParams.set(k, v))
     } catch {}
-    window.open(target.toString(), "_blank", "noopener")
+    window.open(base.toString(), "_blank", "noopener")
   }
 
   return (
