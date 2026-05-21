@@ -172,7 +172,7 @@ export function CasinoSiteCard({ site, rank }: CasinoSiteCardProps) {
               <div className="text-lg xl:text-xl font-bold text-gray-900 mb-0.5 leading-tight break-words">
                 {site.bonus}
               </div>
-              <div className="text-lg xl:text-xl font-bold text-gray-900 leading-tight break-words text-nowrap">
+              <div className="text-lg font-bold text-gray-900 leading-tight break-words text-nowrap">
                 {site.welcomeOffer}
               </div>
             </div>
@@ -270,7 +270,7 @@ export function CasinoSiteCard({ site, rank }: CasinoSiteCardProps) {
               <div className="flex-[0_0_25%] text-center px-2">
                 <div className="text-xs text-gray-600 uppercase font-normal mb-1">Welcome Bonus</div>
                 <div className="text-base font-bold text-gray-900 mb-0.5 leading-tight break-words">{site.bonus}</div>
-                <div className="text-base font-bold text-gray-900 leading-tight break-words text-nowrap">
+                <div className="text-xs font-bold text-gray-900 leading-tight break-words text-nowrap">
                   {site.welcomeOffer}
                 </div>
               </div>
@@ -403,7 +403,7 @@ export function CasinoSiteCard({ site, rank }: CasinoSiteCardProps) {
               <div className="text-center flex-1 flex flex-col justify-center">
                 <div className="text-[10px] text-black uppercase font-normal mb-1">WELCOME BONUS</div>
                 <div className="text-lg font-bold text-gray-900 leading-tight mb-1">{site.bonus}</div>
-                <div className="text-lg font-bold text-gray-900 leading-tight text-nowrap">{site.welcomeOffer}</div>
+                <div className="text-xs font-bold text-gray-900 leading-tight text-nowrap">{site.welcomeOffer}</div>
               </div>
 
               {/* Button - more square */}
