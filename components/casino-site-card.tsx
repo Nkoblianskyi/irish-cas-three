@@ -167,18 +167,18 @@ export function CasinoSiteCard({ site, rank }: CasinoSiteCardProps) {
             </div>
 
             {/* BONUS OFFER - 25% */}
-            <div className="flex-[0_0_25%] text-center flex flex-col justify-center h-full px-2">
+            <div className="flex-[0_0_30%] text-center flex flex-col justify-center h-full px-2">
               <div className="text-xs text-gray-600 uppercase font-normal mb-1">Welcome Bonus</div>
               <div className="text-lg xl:text-xl font-bold text-gray-900 mb-0.5 leading-tight break-words">
                 {site.bonus}
               </div>
-              <div className="text-lg font-bold text-gray-900 leading-tight break-words text-nowrap">
+              <div className="text-sm font-bold text-gray-900 leading-tight break-words text-nowrap">
                 {site.welcomeOffer}
               </div>
             </div>
 
             {/* USER RATING - 20% */}
-            <div className="flex-[0_0_20%] text-center flex flex-col justify-center h-full px-2">
+            <div className="flex-[0_0_17%] text-center flex flex-col justify-center h-full px-2">
               <div className="text-xs text-black mb-0.5">Rate it! ({formatVotes(site.votes)})</div>
               <div className="flex justify-center gap-0.5 xl:gap-1">
                 {[...Array(5)].map((_, i) => (
